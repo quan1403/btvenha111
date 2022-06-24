@@ -16,7 +16,7 @@ from dsdiemtrungbinh;
 select dsdiemthi.nametest,max(mark) as 'diem cao nhat'
 from dsdiemthi
 group by dsdiemthi.nametest
-order by  dsdiemthi.Nametest ASC;
+order by  dsdiemthi.Nametest ;
 update student set age = age + 1
 where RN >0;
 alter table student add status varchar(10);
